@@ -146,6 +146,39 @@ function Week6Content({ goBack }: { goBack: () => void }) {
                     </ul>
                 </div>
             </div>
+
+            <h2>Medial Pterygoid</h2>
+            <div className='image-text'>
+                <div className='image-group'>
+                    <img id='mp-heads-img' src='week6/mp-heads.png' alt='Medial Pterygoid Heads'/>
+                    <img id='mp-attachments-img' src='week6/mp-attachments.png' alt='Medial Pterygoid Attachments'/>
+                </div>
+                <div className='text-section'>
+                    <h3>Components</h3>
+                    <ul>
+                        <li>Superficial head</li>
+                        <li>Deep head</li>
+                    </ul>
+                    
+                    <h3>Actions</h3>
+                    <ul>
+                        <li>Elevation</li>
+                        <li>Lateral extrusion (Contralateral)</li>
+                    </ul>
+
+                    <h3>Attachments</h3>
+                    <h4>Origin</h4>
+                    <ul>
+                        <li><i>Superficial head: </i>Pyramidal process of palatine bone</li>
+                        <li><i>Deep head: </i>Medial surface of lateral pterygoid plate</li>
+                    </ul>
+
+                    <h4>Insert</h4>
+                    <ul>
+                        <li>Medial side of angle of mandible</li>
+                    </ul>
+                </div>
+            </div>
         </div>
         <button className='bottom-back-button' onClick={goBack}>← Back</button>
     </div>
