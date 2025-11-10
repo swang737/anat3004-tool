@@ -1,0 +1,87 @@
+import './week6.css'
+
+function Week6Content({ goBack }: { goBack: () => void }) {
+  return (
+    <div>
+        <div className='content-text'>
+            <h1>Temporomandibular Joint</h1>
+            <h2>Movements</h2>
+
+            <div className='image-text'>
+                <img id='tmj-movements-img' src="week6/tmj-movements.png" alt='TMJ Movements'/>
+                <div className='text-section'>
+                    <h3>Depression</h3>
+                    <p>Anterior rotation (0~20), Anterior translation (20~45)</p>
+
+                    <h3>Elevation</h3>
+                    <p>Reverse of depression</p>
+
+                    <h3>Protrusion</h3>
+                    <p>Anterior translation</p>
+
+                    <h3>Retrusion</h3>
+                    <p>Reverse of protrusion</p>
+                </div>
+            </div>
+
+            <h1>Muscles of TMJ</h1>
+
+            <h2>Masseter</h2>
+            <div className='image-text'>
+                <div className='image-group'>
+                    <img id='masseter-img' src='week6/masseter.png' alt='Masseter'/>
+                    <img id='coronoid-masseter-img' src='week6/coronoid-masseter.png' alt='Coronoid part of Masseter'/>
+                </div>
+                <div className='text-section'>
+                    <h3>Components</h3>
+                    <ul>
+                        <li>Superficial part (Anterior)</li>
+                        <li>Deep part (Posterior)</li>
+                        <li>Coronoid part (Smallest and deepest part)</li>
+                    </ul>
+
+                    <h3>Actions</h3>
+                    <h4>Superficial and Deep parts</h4>
+                    <ul>
+                        <li>Elevation</li>
+                        <li>Lateral extrusion</li>
+                        <li><i>Superficial part:</i> Protrusion</li>
+                        <li><i>Deep part:</i> Retrusion</li>
+                    </ul>
+                    <h4>Coronoid part</h4>
+                    <ul>
+                        <li>Assists with retraction</li>
+                        <li>Stabilisation of mandible</li>
+                    </ul>
+
+                    <h3>Attachments</h3>
+                    <h4>Origin (Stabilized attachment)</h4>
+                    <ul>
+                        <li><i>Superficial part: </i>Inferior border of zygomatic process of temporal bone</li>
+                        <li><i>Deep/Coronoid part: </i>Inferior border of temporal process of zygomatic bone</li>
+                    </ul>
+
+                    <h4>Insert (Moving attachment)</h4>
+                    <ul>
+                        <li><i>Superficial/Deep part: </i>Angle and lateral ramus of mandible</li>
+                        <li><i>Coronoid part: </i>Lateral surface of coronoid process of mandible</li>
+                    </ul>
+                </div>
+            </div>
+            
+            <h2>Temporalis</h2>
+            <div className='image-text'>
+                <div className='image-group'>
+                    <img id='temporalis-prosection-img' src='week6/temporalis-prosection.png' alt='Temporalis Prosection'/>
+                </div>
+                <div className='text-section'>
+                    <h3>Components</h3>
+                </div>
+            </div>
+        </div>
+        <button className='bottom-back-button' onClick={goBack}>← Back</button>
+    </div>
+  );
+}
+
+export default Week6Content;
