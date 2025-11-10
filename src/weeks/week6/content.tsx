@@ -73,6 +73,7 @@ function Week6Content({ goBack }: { goBack: () => void }) {
             <div className='image-text'>
                 <div className='image-group'>
                     <img id='temporalis-prosection-img' src='week6/temporalis-prosection.png' alt='Temporalis Prosection'/>
+                    <img id='temporal-line-img' src='week6/temporal-line.png' alt='Temporal Line'/>
                 </div>
                 <div className='text-section'>
                     <h3>Components</h3>
@@ -96,6 +97,53 @@ function Week6Content({ goBack }: { goBack: () => void }) {
 
                     <h3>Attatchments</h3>
                     <h4>Origin</h4>
+                    <ul>
+                        <li>Inferior temporal line</li>
+                        <li>Temporal fossa</li>
+                        <li>Temporalis fascia</li>
+                    </ul>
+
+                    <h4>Insert</h4>
+                    <ul>
+                        <li>Coronoid process of mandible</li>
+                        <li><i>Verticle fibres: </i>Anterior border of ramus of mandible</li>
+                    </ul>
+                </div>
+            </div>
+
+            <h2>Lateral Pterygoid</h2>
+            <div className='image-text'>
+                <div className='image-group'>
+                    <img id='lp-heads-img' src='week6/lateral-pterygoid-heads.jpeg' alt='Lateral Pterygoid Heads'/>
+                    <img id='lp-attachments-img' src='week6/lp-attachments.png' alt='Lateral Pterygoid Attachment Sites'/>
+                </div>
+                <div className='text-section'>
+                    <h3>Components</h3>
+                    <ul>
+                        <li>Upper head</li>
+                        <li>Lower head</li>
+                    </ul>
+
+                    <h3>Actions</h3>
+                    <ul>
+                        <li>Depression</li>
+                        <li>Lateral extrusion (Contralateral)</li>
+                        <li><i>Upper head: </i>Protraction of articular disc</li>
+                        <li><i>Lower head: </i>Protraction of neck of condyle</li>
+                    </ul>
+
+                    <h3>Attachments</h3>
+                    <h4>Origin</h4>
+                    <ul>
+                        <li><i>Upper head: </i>Infratemporal fossa of sphenoid bone</li>
+                        <li><i>Lower head: </i>Lateral surface of lateral pterygoid plate</li>
+                    </ul>
+
+                    <h4>Insert</h4>
+                    <ul>
+                        <li><i>Upper head: </i>Articular disc of TMJ</li>
+                        <li><i>Lower head: </i>Neck of condyle of mandible</li>
+                    </ul>
                 </div>
             </div>
         </div>
