@@ -1,0 +1,1 @@
+import{n as e,t}from"./index-BDWHWtUm.js";var n=e(t());function r({goBack:e}){return(0,n.jsx)(`div`,{children:(0,n.jsx)(`button`,{onClick:e,children:`← Back`})})}var i=r;export{i as default};
