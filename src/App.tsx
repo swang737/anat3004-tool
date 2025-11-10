@@ -106,7 +106,7 @@ function App() {
   return (
     <div className='select-week-container'>
       <h1 id='study-tool-title'>ANAT3004 Study Tool!</h1>
-        <p>created by Sean Wang</p>
+        <p id='author-text'>created by Sean Wang</p>
       <h2>Select a Week to Study</h2>
       <div className='week-selections'>
         {/* {} indicates javascript expression */}

@@ -257,6 +257,24 @@ function Week6Content({ goBack }: { goBack: () => void }) {
             </div>
 
             <h2>Venous drainage</h2>
+            <div className='image-text'>
+                <div className='image-group'>
+                    <img id='venous-img' src='week6/venous.png' alt='Venous Drainage'/>
+                </div>
+                <div className='text-section'>
+                    <h3>Pterygoid venous plexus</h3>
+                    <ul>
+                        <li>Drains TMJ and muscles of mastication</li>
+                        <li><i>Medial to: </i>Temporalis, Coronoid process, Masseter, Lower head of lateral pterygoid</li>
+                        <li><i>Lateral to: </i>Buccinator, Medial pterygoid muscle, Lateral pterygoid</li>
+                    </ul>
+                    <Variation>
+                        Pterygoid venous plexus can be either medial or lateral to the maxillary artery.
+                    </Variation>
+                </div>
+            </div>
+            <h1>Innervation of TMJ</h1>
+            <h2>Coming Soon!</h2>
         </div>
         <button className='bottom-back-button' onClick={goBack}>← Back</button>
     </div>
