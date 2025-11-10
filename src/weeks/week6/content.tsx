@@ -76,6 +76,26 @@ function Week6Content({ goBack }: { goBack: () => void }) {
                 </div>
                 <div className='text-section'>
                     <h3>Components</h3>
+                    <ul>
+                        <li>Verticle fibres</li>
+                        <li>Horizontal fibres</li>
+                    </ul>
+                    
+                    <h3>Actions</h3>
+                    <h4>Verticle fibres</h4>
+                    <ul>
+                        <li>Elevation</li>
+                        <li>Lateral extrusion</li>
+                    </ul>
+
+                    <h4>Horizontal fibres</h4>
+                    <ul>
+                        <li>Retrusion</li>
+                        <li>Lateral extrusion</li>
+                    </ul>
+
+                    <h3>Attatchments</h3>
+                    <h4>Origin</h4>
                 </div>
             </div>
         </div>
