@@ -1,0 +1,31 @@
+.variation {
+    background-color: rgb(255, 255, 122);
+    opacity: 0.8;
+    border-radius: 8px;
+    margin-top: 30px;
+    color: #000000;
+    transition: opacity 0.25s ease, transform 0.15s ease;
+}
+
+.variation:hover {
+  opacity: 1;
+  transform: translateY(-1px);
+}
+
+.variation-header {
+  font-weight: 800;
+  margin: 12px 12px 0px 12px;
+  padding: 8px 8px 0px 8px;
+  font-size: 1.2rem;
+  letter-spacing: 0.03em;
+  display: flex;
+  align-items: center;
+  gap: 6px;
+  opacity: 1;
+}
+
+.variation-content{
+    margin: 0px 12px 12px 12px;
+    padding: 12px;
+    color: #000000;
+}

@@ -1,4 +1,5 @@
 import './week6.css'
+import { Variation } from '../../components/blocks.tsx'
 
 function Week6Content({ goBack }: { goBack: () => void }) {
   return (
@@ -179,6 +180,83 @@ function Week6Content({ goBack }: { goBack: () => void }) {
                     </ul>
                 </div>
             </div>
+            <h2>Anterior belly of Digastric</h2>
+            <div className='image-text'> 
+                <div className='image-group'>
+                    <img id='ant-digastric-img' src='week6/ant-digastric.png' alt='Anterior Belly of Digastric Prosection'/>
+                </div>
+                <div className='text-section'>
+                    <h3>Actions</h3>
+                    <ul>
+                        <li>Depression</li>
+                        <li><i>Swallowing: </i>Elevation and anterior movement of Hyoid/Larynx</li>
+                    </ul>
+                    
+                    <h3>Attachments</h3>
+                    <h4>Origin</h4>
+                    <ul>
+                        <li>Digastric fossa of mandible</li>
+                    </ul>
+
+                    <h4>Insert</h4>
+                    <ul>
+                        <li>Intermediate tendon of digastric</li>
+                    </ul>
+                </div>
+            </div>
+
+            <h2>Buccinator</h2>
+            <div className='image-text'>
+                <div className='image-group'>
+                    <img id='buccinator-img' src='week6/buccinator.png' alt='Buccinator Image'/>
+                </div>
+                <div className='text-section'>
+                    <h3>Actions</h3>
+                    <ul>
+                        <li>Maintaining bolus between teeth</li>
+                        <li>Blowing and sucking</li>
+                    </ul>
+                    
+                    <h3>Origin</h3>
+                    <ul>
+                        <li>Pterygomandibular raphe - Fibrous connective tissue band between Buccinator and Superior Pharyngeal Constrictor</li>
+                        <li>Alveolar process of maxilla/mandible - tooth-bearing ridge</li>
+                    </ul>
+
+                    <h3>Insert</h3>
+                    <ul>
+                        <li>Modiolus - Confluence of risorius, buccinator and zygomaticus major</li>
+                    </ul>
+                </div>
+            </div>
+
+            <h1>Blood Supply to the TMJ</h1>
+            <h2>Arterial blood supply</h2>
+            <div className='image-text'>
+                <div className='image-group'>
+                    <img id='mm-arterial-img' src='week6/mm-arterial.png' alt='Arterial Supply of Muscles of Mastication'/>
+                </div>
+                <div className='text-section'>
+                    <h3>To the TMJ</h3>
+                    <p><b>SAD:</b> Superficial temporal, Ascending pharyngeal, Deep auricular</p>
+            
+                    <h3>To muscles</h3>
+                    <ul>
+                        <li><i>Temporalis: </i>Anterior/posterior deep temporal arteries</li>
+                        <ul>
+                            <li>Superficial temporal artery (<i>Not branch of maxillary</i>)</li>
+                        </ul>
+                        <li><i>Medial/Lateral pterygoid: </i>Pterygoid arteries</li>
+                        <li><i>Buccinator: </i>Buccal artery</li>
+                        <li><i>Masseter: </i>Masseteric atery</li>
+                    </ul>
+                    <Variation>
+                        Maxillary artery can either cross lateral pterygoid muscle superficially or deep
+                    </Variation>
+                </div> 
+            </div>
+
+            <h2>Venous drainage</h2>
         </div>
         <button className='bottom-back-button' onClick={goBack}>← Back</button>
     </div>
