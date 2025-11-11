@@ -6,6 +6,24 @@ function Week6Content({ goBack }: { goBack: () => void }) {
     <div>
         <div className='content-text'>
             <h1>Temporomandibular Joint</h1>
+            <h2>Ligaments of TMJ</h2>
+            <div className='image-text'>
+                <img id='ligaments-img' src='week6/ligaments.png' alt='Supporting Ligaments of the TMJ'/>
+                <div className='text-section'>
+                    <h3>Sphenomandibular ligament</h3>
+                    <ul>
+                        <li><i>Origin: </i>Spine of sphenoid</li>
+                        <li><i>Insert: </i>Lingula of mandible</li>
+                    </ul>
+
+                    <h3>Stylomandibular ligament</h3>
+                    <ul>
+                        <li><i>Origin: </i>Styloid process</li>
+                        <li><i>Insert: </i>Inferior border of angle of mandible</li>
+                    </ul>
+                </div>
+            </div>
+
             <h2>Movements</h2>
 
             <div className='image-text'>
@@ -245,6 +263,7 @@ function Week6Content({ goBack }: { goBack: () => void }) {
                         <li><i>Temporalis: </i>Anterior/posterior deep temporal arteries</li>
                         <ul>
                             <li>Superficial temporal artery (<i>Not branch of maxillary</i>)</li>
+                            <li>Middle temporal artery (<i>Not branch of maxillary</i>)</li>
                         </ul>
                         <li><i>Medial/Lateral pterygoid: </i>Pterygoid arteries</li>
                         <li><i>Buccinator: </i>Buccal artery</li>
