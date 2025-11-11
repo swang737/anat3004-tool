@@ -137,3 +137,75 @@ img {
   text-align: left;
   max-width: 680px;
 }
+
+/* PRACTICE QUESTIONS IMAGE */
+.practice-img {
+  max-width: 100%;
+  height: auto;
+  border-radius: 12px;
+}
+
+.practice-q-text {
+  margin: 8px 0 12px;
+  font-size: 25px;
+}
+
+.practice-input {
+  width: 100%;
+  margin: 25px 0 25px 0;
+  padding: 12px;
+  border-radius: 12px;
+  border-width: 1px;
+  border-style: solid;
+  border-color: #ccc;
+  font-size: 16px;
+  outline: none;
+}
+
+.idk-button {
+  background: #ff7913;
+  border-color: #ff7913;
+  margin: 25px;
+  color: white;
+  opacity: 0.8;
+  transition: all 0.25s ease;
+}
+
+.idk-button:hover {
+  opacity: 1;
+  border-color: #ff7913;
+  transform: translateY(-2px);
+}
+
+.check-button {
+  background: #1d9300;
+  border-color: #1d9300;
+  margin: 25px 25px 25px 0;
+  color: white;
+  opacity: 0.8;
+  transition: all 0.25s ease;
+}
+
+.check-button:hover {
+  opacity: 1;
+  border-color: #1d9300;
+  transform: translateY(-2px);
+}
+
+.correct-answer-text {
+  margin-top: 10px;
+  padding: 20px;
+  border-radius: 8px;
+  background: rgba(225,29,72, 0.8);
+  color: #ffffff;
+  font-size: 18px;
+}
+
+.correct-answer-text-correct {
+  margin-top: 10px;
+  padding: 20px;
+  border-radius: 8px;
+  background: rgba(74, 177, 19, 0.8);
+  color: #ffffff;
+  font-size: 18px;
+}

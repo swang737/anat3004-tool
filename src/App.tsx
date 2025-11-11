@@ -90,7 +90,7 @@ function App() {
       return (
         <div className='week-container'>
           <button onClick={() => setMode('menu')}>← Back</button>
-          <h1>Week {selectedWeek} – Practice</h1>
+          <h2>Week {selectedWeek} – Practice</h2>
           {PracticeLazy ? (
             <Suspense fallback={<p>Loading practice…</p>}>
               <PracticeLazy goBack={() => setMode('menu')} />
