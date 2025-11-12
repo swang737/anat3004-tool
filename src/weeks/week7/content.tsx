@@ -229,7 +229,8 @@ function Week7Content({ goBack }: { goBack: () => void }) {
                 <h2>Bony Labyrinth</h2>
                 <div className='image-text'>
                     <div className='image-group'>
-
+                        <img id='cochlea-diagram-img' src='week7/cochlea-diagram.png' alt='Diagram of Cochlea'/>
+                        <img id='bony-laby-img' src='week7/bony-laby.png' alt='Diagram of Inner Ear'/>
                     </div>
                     <div className='text-section'>
                         <h3>Perilymph</h3>
@@ -237,8 +238,119 @@ function Week7Content({ goBack }: { goBack: () => void }) {
                             <li>Similar in composition to cerebrospinal fluid</li>
                             <li>Unknown site of product and reabsorbtion</li>
                         </ul>
+
+                        <h3>Cochlea</h3>
+                        <ul>
+                            <li>Anterior to the <Note text='Central chamber of bony labyrinth'>vestibule</Note></li>
+                            <ul>
+                                <li>Contains oval and round windows</li>
+                            </ul>
+                            <li>Turns around a central bony <Note text='Central bony pillar of cochlea transmitting auditory nerve fibres'>modiulus</Note> with apex of cochlea pointed anteriolaterally</li>
+                            <li>First turn produces promontory</li>
+                            <li>Wide base of modiolus placed on <Note text='Bony canal in petrous part of temporal bone that carries nerves to cochlea'>internal acoustic meatus</Note></li>
+                            <ul>
+                                <li>Entered here by cochlear part of vestibulocochlear nerve</li>
+                            </ul>
+                        </ul>
+
+                        <h3>Semicircular canals</h3>
+                        <ul>
+                            <li>Superior, posterior and lateral semicircular canals in posterosuperior direction from vestibule</li>
+                            <li>Connected at both ends to vestibule</li>
+                            <li>Dilated at one end to form <i>ampulla</i></li>
+                            <ul>
+                                <li>Oriented at perpendicular to each other</li>
+                            </ul>
+                            <li><i>Lateral canal: </i>causes horizontal bulge on medial wall above facial nerve prominence</li>
+                            <li><i>Superior canal: </i>Produced arcuate eminence in middle cranial fossa</li>
+                        </ul>
                     </div>
                 </div>
+                <h2>Membranous Labyrinth</h2>
+                <div className='image-text'>
+                    <div className='image-group'>
+                        <img id='cochlea-duct-img' src='week7/cochlea-duct.png' alt='Close up of Cochlear Duct in Cochlea'/>
+                        <img id='vestibule-img' src='week7/vestibule.png' alt='Diagram of Vestibule and Features of Inner Ear'/>
+                    </div>
+                    <div className='text-section'>
+                        <h3>Cochlear duct</h3>
+                        <ul>
+                            <li>Divides cochlea into <i>Scala vestibuli</i> and <i>Scala tympani</i></li>
+                            <ul>
+                                <li>Both contain perilymph, whilst cochlear duct contains endolymph</li>
+                                <li>Scala vestibuli and scala tympani are continuous with each other at the <Note text='tip of cochlea'>helicotrema</Note></li>
+                                <li>Scala tympani seperated from middle ear by second tympanic membrane covering round window</li>
+                            </ul>
+                            <li>Held in position by <Note text='thin lamina of bone extending from modiolus'>lamina of modiolus</Note></li>
+                            <li>Contains <Note text='Receptor organ for hearing'>spiral organ/organ of corti</Note></li>
+                        </ul>
+
+                        <h3>Organs of Balance</h3>
+                        <h4>Utricle</h4>
+                        <ul>
+                            <li>Larger sac</li>
+                            <ul>
+                                <li>Oval, elongated and irregular in shape</li>
+                            </ul>
+                            <li>Posterosuperior part of vestibule</li>
+                            <li>All 3 <Note text='Membranous structure INSIDE semilunar canal (they are not the same)'>semilunar ducts</Note> empty here</li>
+                        </ul>
+
+                        <h4>Saccule</h4>
+                        <ul>
+                            <li>Smaller rounded sac</li>
+                            <li>Anteroinferior part of vestibule</li>
+                            <li>Cochlear duct empties into it</li>
+                        </ul>
+
+                        <h4>Sensing movements</h4>
+                        <ul>
+                            <li><i>Utricle/Saccule: </i>Both contain a sensory organ called <i>Macula</i></li>
+                            <ul>
+                                <li><i>Utricle: </i>Linear acceleration in horizontal plane and sideways head tilts</li>
+                                <li><i>Saccule: </i>Linear acceleration in vertical plane (backward/forward and upward/downward)</li>
+                            </ul>
+                            <li><i>Semilunar ducts: </i>Sensory structure called <i>Crista ampullaris</i> in ampulla</li>
+                            <ul>
+                                <li>Rotational movement in any direction</li>
+                            </ul>
+                        </ul>
+                    </div>
+                </div>
+                <h2>Innervation</h2>
+                <ul>
+                    <li>Innervated by vestibulocochlear nerve</li>
+                    <li>Vestibular nerve enlarges into vestibular ganglion then divides into superior and inferior parts to supply organs of balance</li>
+                    <li>Cochlear nerve passes up thorugh modiolus to form spiral ganglia at base of lamina before supplying spiral organs</li>
+                </ul>
+
+                <h2>Transmission of Sound</h2>
+                <div className='image-text'>
+                    <div className='image-group'>
+                        <img src="week7/sound.png" alt="Transmission of Sound in the Cochlea" id='sound-img' />
+                    </div>
+                    <div className='text-section'>
+                       <ol>
+                            <li>Sound causes tympanic membrane to vibrate</li>
+                            <li>Vibrations transmitted through ossicles</li>
+                            <li>Base of stapes vibrates with increased strength and decreased amplitude</li>
+                            <li>Vibrations create pressure waves in perilympth</li>
+                            <li>Pressure waves in scala vestibuli displace basillar membrane of cochlear duct, causing sensory hairs to bend, neurotransmitter released</li>
+                            <ul>
+                                <li>Shorter waves cause displacement closer to oval window, whilst longer waves cause displacement further away</li>
+                          </ul>
+                            <li>Vibrations are transmitted through cochlear duct to scala tympani</li>
+                            <li>Pressure waves dissapated into secondary tympanic membrane</li>
+                        </ol>
+                        <Poster title='Clinical Note'>
+                            <ul>
+                                <li>Spiral organ more sensitive to noise induced damage since sensitive to wider range of frequencies</li>
+                                <li>Temporary or permanent loss of sensory hairs (microvilli) or damage to nerves and ganglia</li>
+                            </ul>
+                        </Poster>
+                    </div>
+                </div>
+                
             </div>
             <button className='bottom-back-button' onClick={goBack}>← Back</button>
         </div>

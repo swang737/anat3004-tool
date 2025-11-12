@@ -29,13 +29,9 @@ h4 {
   font-weight: 550;
 }
 
-p, ul {
+p, ul, ol {
   margin: 0px;
   font-size: 18px
-}
-
-ul {
-  margin: 0;
 }
 
 a {
