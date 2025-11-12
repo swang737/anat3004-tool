@@ -1,5 +1,5 @@
 import './week6.css'
-import { Variation } from '../../components/blocks.tsx'
+import { Poster } from '../../components/blocks.tsx'
 
 function Week6Content({ goBack }: { goBack: () => void }) {
   return (
@@ -269,9 +269,9 @@ function Week6Content({ goBack }: { goBack: () => void }) {
                         <li><i>Buccinator: </i>Buccal artery</li>
                         <li><i>Masseter: </i>Masseteric atery</li>
                     </ul>
-                    <Variation>
+                    <Poster title='Anatomical Variations'>
                         Maxillary artery can either cross lateral pterygoid muscle superficially or deep
-                    </Variation>
+                    </Poster>
                 </div> 
             </div>
 
@@ -287,9 +287,9 @@ function Week6Content({ goBack }: { goBack: () => void }) {
                         <li><i>Medial to: </i>Temporalis, Coronoid process, Masseter, Lower head of lateral pterygoid</li>
                         <li><i>Lateral to: </i>Buccinator, Medial pterygoid muscle, Lateral pterygoid</li>
                     </ul>
-                    <Variation>
+                    <Poster title='Anatomical Variations'>
                         Pterygoid venous plexus can be either medial or lateral to the maxillary artery.
-                    </Variation>
+                    </Poster>
                 </div>
             </div>
             <h1>Innervation of TMJ</h1>

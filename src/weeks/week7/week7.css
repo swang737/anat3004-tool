@@ -3,5 +3,41 @@
 }
 
 #tensor-tympani-img {
+    width: 500px;
+}
+
+#mid-ear-walls-img {
+    width: 500px;
+}
+
+#medial-wall-img {
+    width: 500px;
+}
+
+#tm-diagram-img {
     width: 350px;
+}
+
+#tm-prosection-img {
+    width: 350px;
+}
+
+#chorda-tympani-img {
+    width: 350px;
+}
+
+#ossicles-img {
+    width: 320px;
+}
+
+#me-muscles-img {
+    width: 500px;
+}
+
+#me-blood-nerve-img {
+    width:450px;
+}
+
+#at-prosection-img {
+    width: 450px;
 }

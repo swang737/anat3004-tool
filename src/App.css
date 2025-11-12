@@ -41,39 +41,22 @@ ul {
 a {
   position: relative;
   display: inline-block;
-  color: #f0f63b;
+  color: #ff9500;
   text-decoration: none;
-  background-color: rgba(255, 225, 0, 0.3);
+  background-color: rgba(255, 162, 0, 0.3);
   padding: 4px 8px;
   border-radius: 6px;
   line-height: 1.2;              /* lock layout height */
-  transition: background-color .2s ease, color .2s ease;
+  transition: all 0.25s ease;
   -webkit-font-smoothing: antialiased;
   backface-visibility: hidden;   /* reduce AA flicker on some GPUs */
 }
-
-a::after {
-  content: "";
-  position: absolute;
-  inset: 0;
-  border-radius: inherit;
-  /* put the shadow on a separate paint layer */
-  box-shadow: 0 2px 6px rgba(255, 162, 0, 0.35);
-  opacity: 0;
-  transition: opacity .2s ease;
-  pointer-events: none;
-}
-
 a:hover {
-  background-color: rgba(255, 162, 0, 0.25);
-  color: #ff9d00;
+  transform: translateY(-4px);
 }
-
-a:hover::after { opacity: 1; }
 
 a:active {
-  color: #ff0000;
-  background-color: rgba(255, 0, 0, 0.15);
+  transform: translateY(3px);
 }
 
 #author-text {
